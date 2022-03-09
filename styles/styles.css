@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap");
+.navbar {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  padding-bottom: 60px;
+  z-index: 2;
+}
+
+.black_logo {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.navbar__menu {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 60px;
+  padding-left: 390px;
+  padding-top: 30px;
+}
+
+.navbar__menu--links {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+  color: #7D7987;
+}
+
+a.navbar__menu--links:link {
+  text-decoration: none;
+}
+
+a.navbar__menu--links:hover {
+  text-decoration: none;
+  color: #1F1534;
+}
+
+#home {
+  padding-top: 80px;
+}
+
+.cardFeature {
+  text-align: left;
+  height: 350px;
+  width: 200px;
+  padding: 20px;
+}
+
+.cards, .card2, .card {
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card2 {
+  width: 280px;
+}
+
+.row {
+  padding: 30px;
+}
+
+.card--img {
+  padding-bottom: 10px;
+}
+
+.card {
+  width: 18rem;
+}
+
+.card-img-top {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.cardlink {
+  color: #458FF6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button-basic, .button_clear, .button_clear:hover, .button_notclear, .button_notclear:hover {
+  padding: 8px 23px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 100px;
+  font-weight: bold;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button_clear {
+  background-color: transparent;
+  color: #458FF6;
+  border-color: #458FF6;
+}
+
+.button_clear:hover {
+  background-color: #6CBCFC;
+  color: white;
+}
+
+.button_notclear {
+  background-color: #6CBCFC;
+  color: white;
+}
+
+.button_notclear:hover {
+  background-color: transparent;
+  color: #458FF6;
+  border-color: #458FF6;
+}
+
+.featBTN {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#footer {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: #458DFC;
+}
+
+#footerh1, #footer h4, #footer h6, #footer p {
+  color: white;
+}
+
+.footerLinks {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  color: #1F1534;
+}
+
+p {
+  color: #7D7987;
+  font-size: 18px;
+}
+
+.con, .home__container, .apps_container {
+  display: inline-block;
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+#features {
+  width: 90%;
+  margin: 5%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 1050px;
+  background-color: #F3F7FF;
+}
+
+.centerAlign, .h2box, .pFeatures {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+}
+
+.h2box {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.leadingApps {
+  padding-top: 110px;
+}
+
+.mySlides {
+  display: none;
+  border-radius: 20px !important;
+}
+
+.w3-left, .w3-right, .w3-badge {
+  cursor: pointer;
+}
+
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0;
+}
+
+.users--img {
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
+
+#tistimonialsh1, #tistimonials h4, #tistimonials p {
+  color: white;
+}
+
+.bigFont {
+  font-size: 2em;
+  margin: .67em 0;
+  color: white;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.users--img {
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  width: 150px;
+}
+
+#success {
+  color: green;
+  display: none;
+}
+
+#empty, #invalid {
+  color: red;
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */

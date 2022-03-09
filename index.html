@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Task Manager</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e305c99704.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<!-- Navbar Section -->
+<nav class="navbar">
+  <div class="container-fluid">
+  <img src="images/TM-logo.svg" alt="logo" class="black_logo"/>
+    <div class="navbar__menu">
+        <a href="#home" class="navbar__menu--links" >Home</a>
+        <a href="#features" class="navbar__menu--links">Features</a>
+        <a href="#apps" class="navbar__menu--links">Apps</a>
+        <a href="#tistimonials" class="navbar__menu--links">Testimonials</a>
+        <a href="#about" class="navbar__menu--links">About us</a>
+      </div>
+    </div>
+    </nav>
+     <!-- Home Section -->
+     
+        <div id="home">
+            <div class="home__container">
+            <h1>Manage your tasks<br/> from anywhere!</h1>
+            <p>Task Manager provides a progressive, cutting<br/>
+              edge and accessible way to manage your taskes<br/>
+              from anywhere.</p>
+              <button class="button_clear">Try it now!</button>
+          </div>
+            <div class="home__container">
+            <img
+              src="images/TM-hero-illustration.svg"
+              alt="ILLUSTRATION"
+              class="hero__container--img"
+            />
+
+          </div>
+        </div>
+        <div style="clear: both;"></div>
+         <!-- Features Section -->
+        <div id="features">
+         <h2 class="h2box">Features</h2>
+         <p class="pFeatures">We provide you the best features to manage all of your tasks. Adjust it to your needs and make sure you use it to
+           collaborate effectivly with your teammates.
+         </p>
+         <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card2">
+         <div class="cardFeature">
+          <img
+          src="images/Icon1-members.svg"
+          alt="Members"
+          class="card--img"
+        />
+        <h3 >Members</h3>
+        <p>Invite your team members and allow
+          them to view your tasks while you
+        view thiers</p>
+         </div>
+         </div></div>
+         <div class="col">
+          <div class="card2">
+       <div class="cardFeature">
+        <img
+        src="images/Icon2-groups.svg"
+        alt="Members"
+        class="card--img"
+      />
+      <h3>Groups</h3>
+      <p>Create groups and share tasks with
+        multiple memmbers at once.</p>
+       </div>
+       </div></div>
+       <div class="col">
+        <div class="card2">
+     <div class="cardFeature">
+      <img
+      src="images/Icon3-forum.svg"
+      alt="forum"
+      class="card--img"
+    />
+    <h3>Forum</h3>
+    <p>Discuss your tasks with your 
+      teammates and get work done in
+     no time!</p>
+     </div>
+     </div></div>
+     <div class="col">
+      <div class="card2">
+   <div class="cardFeature">
+    <img
+    src="images/Icon4-listbuilder.svg"
+    alt="list builder"
+    class="card--img"
+  />
+  <h3>List Builder</h3>
+  <p>Build a list of your most important
+    tasks and keep track of them.</p>
+   </div>
+   </div></div>
+   <div class="col">
+    <div class="card2">
+ <div class="cardFeature">
+  <img
+  src="images/Icon5- scroll effects.svg"
+  alt="scroll effects"
+  class="card--img"
+/>
+<h3>Scroll effects</h3>
+<p>8 different scroll effects for your
+  different tasks.</p>
+ </div>
+ </div></div>
+ <div class="col">
+  <div class="card2">
+<div class="cardFeature">
+<img
+src="images/Icon6-custom.svg"
+alt="custom Module"
+class="card--img"
+/>
+<h3>Custom Module</h3>
+<p>Add custom modules to your tasks
+using our easy to use drag and
+drop builder.</p>
+</div>
+</div></div>
+        </div>
+        <div class="featBTN">
+        <button class="button_notclear" >Learn more</button>
+      </div>
+        </div>
+        <!-- apps Section -->
+        <div id="apps">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+          <div>
+            <img
+            src="images/TM-leadingTM-illustration.svg"
+            alt="leading"
+            class="leading--img"
+            />
+            </div>
+          </div>
+          <div class="col">
+            <div class="leadingApps">
+              <h2>Leading Task<br/>
+                 Manager</h2>
+                 <br/>
+              <p>Task Manager provides a progressive, cutting-edge
+                and accessible way to manage your tasks form
+                anywhere. To us, it's not just work. We take pride 
+                in the solutions we deliver
+              </p>
+              <br/>
+              <div>
+                <button class="button_notclear">Learn more</button>
+              </div>
+            </div>
+          </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+        <div >
+          <h2>Download our<br/>
+            mobile apps</h2>
+            <br/>
+         <p>our dedicated mobile app and
+           web portal allow you to access information
+           instantaneously and securely
+         </p>
+         <br/>
+         <div>
+           <button class="button_notclear">Download <i class="fa fa-arrow-down"></i></button>
+         </div>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <img
+            src="images/TM-MobileApp-illustration.svg"
+            alt="leading"
+            class="leading--img"
+            />
+          
+          </div>
+        </div>
+          </div>
+      </div>
+          </div>
+        <!-- tistimonials Section -->
+        <div id="tistimonials">
+
+          <div class="w3-content w3-display-container" style="max-width:800px; max-height: 400px; margin-bottom: 5%; margin-top: 5%; border-radius: 10px!important;">
+            <!-- first user -->
+            <div class="mySlides w3-container w3-blue">
+              <p class="w3-center bigFont">What our users are saying</p>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <img
+                    src="images/TM-User1-profile.png"
+                    alt="user1"
+                    class="users--img"
+                    />
+                  </div>
+                  <div class="col">
+                   <h4><b>Edward Newgate</b></h4>
+                   <p>Sales and Marketing</p>
+                  </div>
+                  <div class="col">
+                 <p>"Our dedicated task management app and web portal allows us to access information instantaneously and securely."</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+             <!-- second user -->
+             <div class="mySlides w3-container w3-blue">
+              <p class="w3-center bigFont">What our users are saying</p>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <img
+                    src="images/TM-User2-profile.jpg"
+                    alt="user2"
+                    class="users--img"
+                    />
+                  </div>
+                  <div class="col">
+                   <h4><b>John Smith</b></h4>
+                   <p>HR</p>
+                  </div>
+                  <div class="col">
+                 <p>"It really helped optimize our onboarding process"</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <!-- third user -->
+              <div class="mySlides w3-container w3-blue">
+                <p class="w3-center bigFont">What our users are saying</p>
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <img
+                      src="images/TM-User3-profile.jpg"
+                      alt="user3"
+                      class="users--img"
+                      />
+                    </div>
+                    <div class="col">
+                     <h4><b>Kevin James</b></h4>
+                     <p>Project Managment</p>
+                    </div>
+                    <div class="col">
+                   <p>"We no longer miss our deadlines!"</p>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                  <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                  <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                </div>
+          </div>
+        </div>
+        <!-- about Section -->
+        <div id="about">
+           <!-- Articles -->
+         <div id="articles">
+           <h1 class="w3-center">Check out our latest article</h1><br/>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+              <div class="card" >
+                <img
+                src="images/TM-Article1-img.jpg"
+                alt="artcle1"
+                class="card-img-top"
+                />
+                <div class="card-body">
+                <h4 class="card-title"><b>Maximise your efficiency using Task Manager</b></h4>
+                <p class="card-text">In this case, the role of task manager was directly responsible for delivering a project on time...</p>
+                <a href="#" class="cardlink">Read more <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div> 
+            <div class="col">
+              <div class="card" >
+                <img
+                src="images/TM-Article2-img.jpg"
+                alt="artcle2"
+                class="card-img-top"
+                />
+                <div class="card-body" >
+                <h4 class="card-title"><b>Effectivly run your business meetings</b></h4>
+                <p class="card-text">Business meetings can get unnecessary long and un-productive...</p>
+                <a href="#" class="cardlink">Read more <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+            <div class="col">
+              <div class="card" >
+                <img
+                src="images/TM-Article3-img.jpg"
+                alt="artcle3"
+                class="card-img-top"
+                />
+                <div class="card-body">
+                <h4 class="card-title"><b>Working across different timezones</b></h4>
+                <p class="card-text">Remote working has forced many of us to work across different timezones. Task manager can help...</p>
+                <a href="#" class="cardlink">Read more <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          </div>
+         </div>
+         <div class="w3-center">
+         <button class="button_clear" style="margin-bottom: 10px;">View all</button>
+        </div>
+</div>
+<br/><br/>
+<!-- Newsletter subscription form -->
+<div id="newsletter" style="justify-content: center; margin:20px;">
+<h1 class="w3-center">Subscribe to our Newsletter</h1><br/>
+<div class="w3-center" style="margin-left: 30%; margin-right: 10%;">
+<form action="/" method="get" id="form" class="input-group mb-3" style="width: 450px;">
+
+  <input id="email" name="email" class="form-control" style="margin-right: 10px;" placeholder="Enter your email address..." >  
+  <div class="input-group-append">
+    <button class="button_notclear" value="Submit" type="submit">Submit</button> 
+  </div> 
+   </div>
+</form>
+<div id="empty"><p class="w3-center" style="color: red;"> Please fill in the email input to submit to the newsletter<i class="fa-solid fa-circle-exclamation"></i> </p></div>
+<div id="invalid"><p class="w3-center" style="color: red;">Please enter a valid email address <i class="fa fa-xmark"></i></p></div>
+<div id="success"><p class="w3-center" style="color: green;">Thank you for subscribing to our newsletter <i class="fa fa-face-smile-hearts"></i></p></div>
+<br/><br/>
+</div>
+<!-- the footer -->
+<div id="footer" class="w3-center">
+  <div class="container">
+    <div class="row">
+      <div class="col" >
+        <img
+        src="images/TM-logo-white.svg"
+        alt="logoFooter"
+        class="logoFooter"
+        />
+        <p>Task Manager provides a progressive, cutting-edge
+          and accassible way to manage your tasks from anywhere.
+        <br/><br/><br/>
+        &copy;TaskManager PITY LTD 2022. All rights reserved
+      </p>
+        </div>
+        <div class="col">
+          <p><b>Company</b></p><br/>
+          <p><a href="#about" class="footerLinks" >About</p></a><br/>
+          <p><a href="#tistimonials" class="footerLinks" >Tesimonials</a></p><br/>
+          <p><a href="#features" class="footerLinks" >Features</a></p><br/>
+          <p><a href="#apps" class="footerLinks" >Apps</a></p><br/>
+        </div>
+        <div class="col">
+          <p><b>Region</b></p><br/>
+          <p>Oman</p><br/>
+          <p>Saudi Arabia</p><br/>
+          <p>Hongkong</p><br/>
+          <p>Canada</p><br/>
+        </div>
+        <div class="col">
+          <p><b>Help</b></p><br/>
+          <p>Help center</p><br/>
+          <p>Contact support</p><br/>
+          <p>Instructions</p><br/>
+          <p>How it works</p><br/>
+        </div>
+        </div>
+
+</div>
+      </div>
+      <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+        </script>
+    </body>
+
+</html>

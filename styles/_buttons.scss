@@ -1,0 +1,41 @@
+@import 'colors';
+.button-basic  {
+    
+    padding: 8px 23px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 100px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button_clear  {
+    @extend .button-basic;
+    background-color: transparent;
+    color: $primaryBlue;
+    border-color: $primaryBlue;
+  }
+  .button_clear:hover  {
+    @extend .button-basic;
+    background-color: $pigmentedBlue;
+    color:white;
+    
+  }
+  .button_notclear  {
+    @extend .button-basic;
+    background-color: $pigmentedBlue;
+    color: white;
+  }
+  .button_notclear:hover  {
+    @extend .button-basic;
+    background-color: transparent;
+    color: $primaryBlue;
+    border-color: $primaryBlue;
+  }
+  .featBTN{
+    display: flex;
+    justify-content: center;
+  }
+  

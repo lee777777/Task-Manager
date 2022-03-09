@@ -1,0 +1,14 @@
+@import 'colors';
+#footer{
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: $lightBlue;
+    &h1,h4,h6,p{
+      color: white;
+      }
+  
+  }
+  .footerLinks{
+    text-decoration: none;
+  }

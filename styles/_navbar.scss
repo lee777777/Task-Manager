@@ -1,0 +1,39 @@
+@import 'colors';
+.navbar{
+ height: 60px;
+ display:flex;
+ width: 100%;
+background-color: white;
+position: fixed;
+padding-bottom: 60px;
+z-index: 2;
+}
+.black_logo{
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.navbar__menu{
+    justify-content: flex-end;
+    padding-right: 60px;
+    padding-left: 390px;
+    padding-top: 30px;
+}
+.navbar__menu--links {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    color: $secondaryFont;
+}
+a.navbar__menu--links:link{
+text-decoration: none;
+}
+a.navbar__menu--links:hover{
+    text-decoration: none;
+    color: $primaryFont;
+}
+
+#home {
+    padding-top: 80px;
+    
+}

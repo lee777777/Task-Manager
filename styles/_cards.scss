@@ -1,0 +1,36 @@
+
+.cardFeature{
+    text-align: left;
+    height: 350px;
+    width: 200px;
+    padding: 20px;
+  }
+  .cards{
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .card2{
+    width: 280px;
+  @extend .cards;
+  }
+  .row{
+    padding: 30px;
+  }
+  .card--img{
+    padding-bottom: 10px;
+  }
+  
+.card{
+    width: 18rem;
+    @extend .cards;
+  }
+  .card-img-top{
+    border-radius: 20px 20px 0px 0px;
+  }
+  .cardlink{
+    color: $primaryBlue;
+    text-decoration: none;
+    font-weight: bold;
+  }

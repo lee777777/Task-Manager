@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap');
+@import 'navbar';
+@import 'colors';
+@import 'cards';
+@import 'buttons';
+@import 'footer';
+* {
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+  }
+  h1, h2, h3{
+    font-weight: bold;
+    color: $primaryFont;
+  }
+  p{
+    color: $secondaryFont;
+    font-size: 18px;
+  }
+  .con{
+    display: inline-block;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+  .home{
+   
+
+    &__container{
+      @extend .con;
+    }
+   
+
+}
+
+#features{
+  width: 90%;
+  margin: 5%;
+  flex: 1;
+  height: 1050px;
+  background-color: $neutral;
+}
+.centerAlign{
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+}
+.h2box{
+  @extend .centerAlign;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+.pFeatures{
+  @extend .centerAlign;
+}
+
+.apps{
+   
+
+  &_container{
+    @extend .con;
+  }
+ 
+
+}
+.leadingApps{
+  padding-top: 110px;
+}
+
+.mySlides {
+  display:none;
+  border-radius: 20px!important;
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+.users--img{
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
+#tistimonials{
+  &h1,h4,p{
+  color: white;
+  }
+
+}
+.bigFont{
+  font-size: 2em;
+   margin: .67em 0;
+   color: white;
+   font-weight: bold;
+   padding-top: 20px;
+}
+.users--img {
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  width: 150px;
+
+}
+#success{
+  color: green;
+  display: none;
+}
+#empty, #invalid{
+  color: red;
+  display: none;
+}
